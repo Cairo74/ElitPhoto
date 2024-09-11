@@ -1,0 +1,357 @@
+body {
+  background-image: url(https://preview.colorlib.com/theme/elit/images/img_9.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0;
+  display: flex;
+}
+
+#barralateral {
+  height: 100vh;
+  background-color: black;
+  width: 50%;
+  position: sticky;
+  top: 0;
+  text-align: left;
+  color: white;
+  list-style: none;
+  padding: 30px;
+  padding-left: 40px;
+  padding-top: 45px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+#elite{color: white;
+width: 10%;
+height: 100vh;
+font-size: 20px;
+font-weight: bold;
+text-decoration: none;}
+
+#txtmenu{font-size: small;
+font-size: 12.8px;
+text-decoration: none;
+color: white;}
+
+#insta{color: white;
+padding: 12px;
+font-size: smaller;}
+
+#face{color: white;
+  padding: 12px;
+  font-size: smaller;}
+
+#twitter{color: white;
+  padding: 12px;
+  font-size: smaller;}
+
+  #estp {
+  color: white;
+  width: 100%;}
+
+  #divtwelcome{padding: 0px 2.5px;
+  justify-content: center;
+  font-family: "Quicksand", sans-serif;
+  color: white;}
+
+#section1{
+  justify-content: center;
+  text-align: center;
+display: flex;
+margin-top: 17%;}
+
+#welcome{ 
+  font-size: 64px;
+  color: white;
+  font-family: "Oswald", arial, sans-serif;
+  font-weight: 400;}
+
+  #txt1{
+  font-size: 25px;
+  font-style:unset;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+font-weight: lighter;}
+
+ #btncontact{
+  color: aliceblue;
+  background-color: #df0e62;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  line-height: 2.5;
+  font-size: 20px;
+  width: 220px;
+  height: 70px;
+padding: 6px 28px;
+font-weight: bold;
+font-family: "Quicksand", arial, sans-serif;}
+
+#photos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: black;
+  row-gap: 5px;}
+
+#photos div{width: 33%;
+height: 33vh;}
+
+#photos img{ object-fit: cover;
+width: 100%;
+height: 33vh;}
+
+#photos div:hover img {
+  opacity: 0.3;
+  transition: 0.3s ease;
+}
+
+#photos>.photo:hover{
+  height: 30vh;
+  width: 33.15%;
+  background-size: cover;
+  transition: all ease .3s;
+  position: relative;
+  transition: 0.5s;
+}
+
+#photos div svg{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  fill: white;
+  height: 3vh;
+  transform: translate(-50%,-50%);}
+
+  .photo svg {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.photo:hover svg {
+    opacity: 1;
+}
+
+#section2{background-color: black;
+  margin-top: 35%;
+padding-top: 10px;}
+
+  #testimonialg{background-color: black;
+    display: block;
+    align-items: center;}
+
+  #testimonial{
+    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-left: -3%;
+    color: white;
+    justify-content: center;
+    text-align: center;}
+
+    #txttestimonial{
+      font-size: 64px;
+      font-family: "Oswald", arial, sans-serif;
+      font-weight: 400;}
+    
+      #fotojean{
+        border-radius: 100%;
+      width: 13%;}
+      
+
+        #txtlorem{
+          font-size: 16px;
+          font-weight: 400;
+          font-family: "Quicksand", arial, sans-serif;}
+
+      #txtjean{
+        font-size: 16px;
+        font-weight: bolder;
+        font-family: "Quicksand",arial, sans-serif;}
+
+        #biografiasec{
+          background-color: #1a1a1a;
+          padding-left: 300px;
+          padding-top: 30px;
+          color: white;
+          padding-bottom: 50px;
+          }
+          
+          #titulobiografia{
+          font-size: 64px;
+          padding-bottom: 5%;
+          font-family: "Oswald", arial, sans-serif;
+          font-weight: 400;
+          }
+          
+          #imgjed{
+          width: 30%;
+          border-radius: 1%;
+          }
+          
+          #txtp{
+          width: 850px;
+          font-size: 23px;
+          font-family: "Quicksand", arial, sans-serif;
+          font-weight: 200;
+          line-height: 1.7;
+          margin: 0;
+          color: gray;
+          }
+          
+          #txtg{
+          font-size: 32px;
+          padding-top: 4%;
+          font-family: "Oswald", arial, sans-serif;
+          font-weight: 400;
+          }
+          
+          #lista{
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              font-size: 20px;
+              width: 600px;
+          }
+          
+          #lista1{
+              list-style-image: url(Imagens/sinal\ lista\ biography.jpg);
+              font-family: "Quicksand", sans-serif;
+              font-size: 15px;
+              font-weight: lighter;
+          }
+
+          #blogsec{
+            background-color: black;
+            padding-left: 300px;
+            padding-bottom: 100px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-content:flex-start;
+        }
+
+        #bloghead{
+          font-size: 64px;
+          font-family: "Oswald", Arial, sans-serif;
+          padding-top: 6%;
+          font-weight: 400;
+          color: white;
+          }
+        
+        #imgblog{
+            width: 250px;
+            height: 200px;
+        }
+
+        #ulblog{list-style: none;}
+         
+        .branco{color: white;}
+
+        .txtblog1{
+          padding: 50px;
+          font-family: "Oswald", Arial, sans-serif;
+          font-weight: 400;
+        }
+
+        .txtblog2{font-size: 16px;
+         font-family: "Quicksand", arial, sans-serif;
+          padding-left: 50px;}
+
+        #listablog{
+          font-size: 20px;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;}
+
+      #divblog{display: flex;
+      flex-direction: row;
+    flex-wrap: wrap;}
+
+    .roxo{color: #df0e62;}
+
+    .cinza{color: #1a1a1a;}
+
+    .fundocinza{background-color: #1a1a1a;
+                border: none;
+                border-bottom: 2px solid gray; 
+                border-radius: 0;
+                background: none;
+                padding-left: 0;
+                padding-right: 0;
+                margin-top: 20px;}
+
+    #contactsec{display: flex;
+                background-color: #1a1a1a;
+                color: white;
+                padding-left: 20%;
+                padding-bottom: 50px;
+                flex-direction: column;}
+
+    #formcontact{font-size: 20px;}
+
+    #divmcontact{display: flex;
+                 flex-wrap: wrap;
+                flex-direction: row;}
+
+    .titlecontact{font-size: 64px;
+    padding-top: 25px;
+    font-family: "Oswald", arial, sans-serif;
+    font-weight: 400;}
+
+    .paddingtxtcontact{
+      font-size: 16px;
+      font-weight: 400;
+      padding-bottom: 100px;
+      font-family: "Quicksand", arial, sans-serif;
+    }
+
+    .btnmessage{border-radius: 30px;
+      background-color: #df0e62;
+      border-color: #df0e62;
+      text-align: center;
+      color: #fff;
+      padding: 15px 30px;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      margin-top: 20px;
+      cursor: pointer;;}
+
+    .paddingcontact{padding-bottom: 50px;}
+
+    #ajustewidth50pra1{width: 465px;
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+    color: #fff;}
+
+    #ajustewidth50pra2{width: 465px;
+      margin-left: 30px;
+      padding-right: 2.5px;
+      padding-left: 2.5px;
+      color: #fff;}
+
+    #ajustewidth100{width: 80%;
+      color: #fff;}
+
+    .paddingtxtcontact{padding-bottom: 50px;
+    font-family: "Quicksand", Arial, sans-serif;}
+
+    .preto{background-color: black;
+    padding-top: 200px;}
+
+    .fundocinza2{background-color: #1a1a1a;
+      border: none;
+      border-bottom: 2px solid gray; 
+      border-radius: 0;
+      background: none;
+      padding-left: 0;
+      padding-right: 0;
+      margin-top: 20px;
+      font-family: "Quicksand", arial, sans-serif;
+      font-size: 16px;}
+
+    .luz{  background-color: rgba(0, 0, 0,40% );}
